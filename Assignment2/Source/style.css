@@ -1,0 +1,30 @@
+
+body {
+      text-align: center;
+      color:black;
+
+    background-image: url(http://3.bp.blogspot.com/-nbcB0_goVHQ/U_Az3TMvc0I/AAAAAAABzoM/OhiffC_RHmk/s1600/Corazones%2B77.jpg);
+    -webkit-font-smoothing: antialiased;
+    background-size: 100%;
+    background-size: 1300px 800px;
+    background-repeat: no-repeat;
+    padding: 5px;
+    font-family: Arial;
+    font-size: 20px;
+}
+h1{
+    font-family: "Times New Roman";
+    font-color:Green;
+    font-size: 20px;
+}
+
+p{
+font-family: Times New Roman;
+    font-color:Red;
+    font-size: 14px;
+}
+#map-canvas {
+    width: 650px;
+    height: 450px;
+}
+
