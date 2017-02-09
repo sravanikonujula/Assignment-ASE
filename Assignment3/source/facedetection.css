@@ -1,0 +1,70 @@
+.form-control{
+    border-radius:8px;
+}
+.navbar{
+    background: #ff4cfe;
+    background-repeat: no-repeat;
+    width: 1024px;
+
+}
+.navbar-brand{
+    color:black;
+    padding-left:37%;
+    font-family: Microsoft sans-serif;
+    font-size:35px;
+}
+.form-group{
+    margin-bottom:-12px;
+}
+#logout{
+    color: #16ffae;
+    padding-left: 35%;
+    font-family: Micro;
+    padding-top: 1.5%;
+    font-family: Microsoft sans-serif;
+    font-size:15px;
+}
+.glyphicon-off{
+    font-size:13px;
+}
+#faceRecognitionLogo{
+    height:50px;
+    width:50px;
+    float:left;
+    margin-left:30px;
+    margin-top:5px;
+}
+body{
+    background: url('https://www.clipartsgram.com/image/1284342478-56573976094735chapwood-website-background-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    width:60%;
+}
+.table{
+    margin-top:20px;
+    width:50%;
+    border:1px solid black;
+    border-radius:8px;
+    margin-left:10%;
+}
+#imageLabel{
+    margin-right: 100px;
+    padding-left:300px;
+    font-weight:bold;
+    font-size:21px;
+}
+#classifyImage{
+    float: right;
+    margin-right: 200px;
+    height:300px;
+    width:350px;
+    mrgin-top:40px;
+    border:1px solid black;
+    border-radius:10px;
+}
+#tableLabel{
+    font-weight:bold;
+    font-size:21px;
+}

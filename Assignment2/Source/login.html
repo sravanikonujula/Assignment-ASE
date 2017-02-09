@@ -1,0 +1,67 @@
+<!DOCTYPE html">
+<html ng-app>
+   <head>
+      <meta t="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.min.js" type="application/javascript"></script>
+<body background-image: url(http://3.bp.blogspot.com/-nbcB0_goVHQ/U_Az3TMvc0I/AAAAAAABzoM/OhiffC_RHmk/s1600/Corazones%2B77.jpg);
+ <link rel="stylesheet" href="style.css">
+</head>
+  <form  method="get" action="Home.html">
+      <body background="new.jpg" ng-app ng-controller="LoginController" class="login">
+<h3 text-align="center" style="color:White" >LOGIN<!DOCTYPE html"></h3>
+
+<br>
+<br>
+<br>
+<div style="color:black"align="center">
+
+    <div >Hello {{ user.firstName }}</div>
+    <br/>
+
+
+    <div class="input" alig="center">
+        <table style="color:black" align="center">
+            <tr>
+                Username: <input ng-model="user.firstName" type="text" />
+            </tr>
+            <br/><br/>
+            <tr>
+                Password: <input ng-model="user.pwd" type="password" />
+            </tr>
+            <br/><br/>
+            <tr><input type="submit" ng-click="login(user.firstName, user.pwd)" value="Login" /></tr>
+            <br/><br/>
+        </table>
+    </div>
+    <div ng-repeat="login in logins">{{ login }}</div>
+</div>
+<span style="padding: 0 50px">&nbsp;</span>
+
+</p>
+</p>
+</p>
+
+<table align="center" style="margin: 2px auto;">
+    <tr>
+        <td>
+            <h1 style="color:white" >New User?&nbsp;&nbsp;<a style="color:red" href="register.html">Register Here!!!</a>
+                <span style="padding: 0 50px">&nbsp;</span>
+            </h1>
+        </td>
+    </tr>
+</table>
+<script>
+    function LoginController($scope) {
+        $scope.logins = [];
+        $scope.login = function (user, pwd) {
+            localStorage.setItem("password" , pwd);
+            localStorage.setItem("username" , user);
+            $scope.logins.push( localStorage.getItem("name") + " was logged in.");
+        };
+    }
+</script>
+</body>
+</form>
+</html>

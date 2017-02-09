@@ -1,0 +1,26 @@
+.row{
+    margin-left:25%;
+    margin-right:0px;
+    width:45%;
+    margin-top:10%;
+    padding:1%;
+    border:1px solid white;
+    background-color:aquamarine;
+}
+.btn-fb {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+span#loginHeading {
+    font-size: 18px;
+    font-family: Microsoft sans-serif;
+}
+body{
+    background: url('https://www.clipartsgram.com/image/349839126-background-images-for-websites-14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.social-buttons {
+    margin-top: 18px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="" >
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/readable/bootstrap.min.css">
+    <link rel="stylesheet" href="Mashup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+</head>
+
+<body>
+<br><br>
+<nav class="navbar navbar-light bg-faded">
+    <h1 class="navbar-brand m-b-0">MashUp techniques
+    </h1>
+    <a href="login.html" class="btn btn-link" id="logout">Logout
+        <span >
+                <i class="glyphicon glyphicon-off"></i>
+            </span></a>
+</nav>
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="apiClass">
+            <span id="spanTextToSpeechHeading">Text to Speech</span>
+            <p class="Defination">
+                Text-to-speech (TTS) is a type of speech synthesis application that is used to create a spoken sound version of the text in a computer document, such as a help file or a Web page.
+            </p>
+            <button type="submit" class="btn btn-primary" id="textToSpeech" onclick="location.href='T2S.html'" class="btn btn-primary">Text to Speech</button>
+        </div>
+        <div class="apiClass">
+            <span id="spanFaceDetectionHeading">Face Detection:</span>
+            <p class="intro">
+                Face detection can be regarded as a specific case of object-class detection. In object-class detection, the task is to find the locations and sizes of all objects in an image that belong to a given class</p>
+            <button type="submit" class="btn btn-primary" id="faceDetection" onclick="location.href='facedetection.html'" class="btn btn-primary">Face Detection</button>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

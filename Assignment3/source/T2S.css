@@ -1,0 +1,66 @@
+.form-control{
+    border-radius:8px;
+}
+.navbar{
+    background: #16ffae;
+    background-repeat: no-repeat;
+    width: 1024px;
+}
+.navbar-brand{
+    color:black;
+    padding-left:37%;
+    font-family: Microsoft sans-serif;
+    font-size:35px;
+}
+.form-group{
+    margin-bottom:-12px;
+}
+#logout{
+    color: mediumpurple;
+    padding-left: 35%;
+    font-family: Micro;
+    padding-top: 1.5%;
+    font-family: Microsoft sans-serif;
+    font-size:15px;
+}
+.glyphicon-off{
+    font-size:13px;
+}
+body{
+    background: url('https://www.clipartsgram.com/image/1284342478-56573976094735chapwood-website-background-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    width:60%;
+}
+#textToSpeechLogo{
+    height:70px;
+    width:70px;
+    float:left;
+    margin-left:30px;
+    margin-top:20px;
+}
+video{
+    margin-left:-160px;
+    margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
