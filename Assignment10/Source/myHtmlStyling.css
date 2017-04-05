@@ -1,0 +1,34 @@
+.h1{
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    color: darkblue;
+    font-family: "calibri";
+    font-size: large;
+}
+.container{
+    background-color: aqua;
+    color: black;
+}
+.cl{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.text{
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 5px;
+    color: black;
+    font-size:13pt;
+    height:20px;
+    width:300px;
+}

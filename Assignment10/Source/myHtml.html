@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" class="h1">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD</title>
+    <script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular.js"></script>
+    <script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-resource.js"></script>
+    <script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-sanitize.js"></script>
+    <script src="app.js"></script>
+    <script src="nodejs.js"></script>
+    <link rel="stylesheet" href="myHtmlStyling.css" type="text/css">
+</head>
+<body ng-app="MongoLab10" id="body">
+
+<div ng-controller="MongoLab10Controller" align="center">
+    <input type="button" value="View Your Details" class="cl" align="center" ng-Click="disp()"/><br><br>
+    <div id="container" class="container" align="center">
+
+    </div><br>
+    <form method="post" action="http://127.0.0.1:8081/delete" autocomplete="on" align="center">
+        <input type="submit" class="cl" align="center" value="Delete the respective Detail"  ><br>
+        <input type="text" class="text" align="center" name="id1" id="id1" placeholder="Enter your ID" /><br>
+
+        </form>
+    <script>    function sync() {
+        document.getElementById('id2').value=document.getElementById('id1').value;
+    }
+    </script>
+
+    <form method="post" action="http://127.0.0.1:8081/update" align="center">
+<br>
+        <h2><center>Update Details</center></h2>
+        <input type="text" class="text" align="center" name="id2" id="id2" placeholder="Enter your ID"/><br><br>
+        <input type="text" class="text" align="center" name="fn" placeholder="Enter your First Name"/><br><br>
+        <input type="text" class="text" align="center" name="ln" placeholder="Enter your Last Name"/><br><br>
+        <input type="text" class="text" align="center" name="ml" placeholder="Enter your E-mail"/><br><br>
+        <input type="submit" class="cl" align="center" value="Update Details Here" ><br>
+
+    </form>
+
+</div>
+
+</body>
+</html>
